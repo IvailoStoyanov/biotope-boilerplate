@@ -3,25 +3,27 @@ $white: #ffffff;
 
 //just to make it look better
 
+.accordion {
+	&__button {
+		// all:unset;
+		background: $white;
+		color: $orange;
+		border: 3px solid $orange;
+		padding: 10px 25px;
+		width: 100%;
 
-.accordion{
-&__button{
-    // all:unset;
-    background: $white;
-    color: $orange;
-    border: 3px solid $orange;
-    padding: 10px 25px;
-    width: 100%;
-    &:hover{
-        cursor: pointer;
-    }
-}
-&__text{
-    padding: 0 20px;
-    display: none;
-    
-}
-&__buttonAndTextWrapper{
-    margin-bottom: 10px;
-}
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	&__text {
+		padding: 0 20px;
+		display: none;
+
+	}
+
+	&__buttonAndTextWrapper {
+		margin-bottom: 10px;
+	}
 }
