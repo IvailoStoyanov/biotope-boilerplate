@@ -30,7 +30,12 @@
 	var methods = {
 
 		init: function () {
+			// your init is goes here
+
 			this.toggleAccordion();
+			this.$element.on('click', function () {
+
+			});
 		},
 
 		toggleAccordion: function () {
